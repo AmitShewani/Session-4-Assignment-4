@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 4.4 - Front End Web Development Fundamentals</title>
+<style type="text/css">
+  h1
+  {
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  @keyframes MoveFromInitialPosition {
+    from {margin-left: 0px}
+    to {margin-left: 500px}
+}
+/*This div will move from left side 0 to 500 px in 5 seconds and will iterate forever */
+  .divInitial
+  {
+    margin-left: 0px;
+    display:table;
+    animation-name: MoveFromInitialPosition;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+</style>
+</head>
+<body>
+<h1>Tutorial to demonstrate CSS animation!!</h1><br><br>
+<div class="divInitial">
+  <img src="../images/bicycle.jpg"/>
+</div>
+</body>
+</html>
